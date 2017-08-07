@@ -1,0 +1,54 @@
+a.link-danger {
+    color: #f46464;
+    text-decoration: none;
+}
+
+a.link-danger:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 1em;
+    color: #777;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ff0000;
+  background-color: transparent;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 22px;
+    border: 1px solid transparent;
+    background: #222222;
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #0e377f;
+    border-color: #d3e0e9;
+}
+
+table {
+    /* gruda uma célula na outra */
+    border-collapse:collapse;
+    /* colocando bordas externas na tabela */
+    border-width:2px;
+    border-style:solid;
+    border-color:#c9c5c5;
+    width:100%;
+}
+
+/* Colocando bordas nas colunas e linhas */
+td, th, tr{
+    /*border-collapse:collapse;*/
+    /* Declaração única para borda*/
+    border:2px solid #c9c5c5;
+}
